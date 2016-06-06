@@ -1,0 +1,256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bp-follow\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-17 11:52-0700\n"
+"PO-Revision-Date: Thu Mar 24 2016 21:19:07 GMT+0800 (CST)\n"
+"Last-Translator: 孙晨 <bestwindow@sina.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: Chinese (China)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: zh_CN\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: bp-follow-core.php:40 bp-follow-core.php:40
+#: _inc/bp-follow-notifications.php:253
+msgid "Follow"
+msgstr "关注"
+
+#: bp-follow-core.php:149 bp-follow-core.php:149 _inc/bp-follow-hooks.php:194
+#: _inc/bp-follow-hooks.php:217
+#, php-format
+msgid "Following <span>%d</span>"
+msgstr "关注了 <span>%d</span>"
+
+#: bp-follow-core.php:160 bp-follow-core.php:160
+#, php-format
+msgid "Followers <span>%d</span>"
+msgstr "关注者 <span>%d</span>"
+
+#: bp-follow-core.php:174 bp-follow-core.php:174
+msgctxt "Activity subnav tab"
+msgid "Following"
+msgstr "关注"
+
+#: bp-follow-core.php:206 bp-follow-core.php:281 bp-follow-core.php:206
+#: bp-follow-core.php:281
+msgctxt "Adminbar main nav"
+msgid "Follow"
+msgstr "关注"
+
+#: bp-follow-core.php:214 bp-follow-core.php:292 bp-follow-core.php:214
+#: bp-follow-core.php:292
+msgctxt "Adminbar follow subnav"
+msgid "Following"
+msgstr "关注"
+
+#: bp-follow-core.php:222 bp-follow-core.php:303 bp-follow-core.php:222
+#: bp-follow-core.php:303
+msgctxt "Adminbar follow subnav"
+msgid "Followers"
+msgstr "关注者"
+
+#: bp-follow-core.php:231 bp-follow-core.php:231
+msgctxt "Adminbar activity subnav"
+msgid "Following"
+msgstr "关注"
+
+#: loader.php:38 loader.php:38
+#, php-format
+msgid ""
+"Hey! BP Follow v1.2 requires BuddyPress 1.5 or higher.  If you are still "
+"using BuddyPress 1.2 and you don't plan on upgrading, use <a href='%s'>BP "
+"Follow v1.1.1 instead</a>."
+msgstr ""
+"Hey! BP Follow v1.2 requires BuddyPress 1.5 or higher.  If you are still "
+"using BuddyPress 1.2 and you don't plan on upgrading, use <a href='%s'>BP "
+"Follow v1.1.1 instead</a>."
+
+#: _inc/bp-follow-actions.php:35
+#, php-format
+msgid "You are already following %s."
+msgstr "当前关注了 %s."
+
+#: _inc/bp-follow-actions.php:39
+#, php-format
+msgid "There was a problem when trying to follow %s, please try again."
+msgstr "关注 %s 时出了点状况, 再试试。"
+
+#: _inc/bp-follow-actions.php:41
+#, php-format
+msgid "You are now following %s."
+msgstr "你已经关注了 %s."
+
+#: _inc/bp-follow-actions.php:74
+#, php-format
+msgid "You are not following %s."
+msgstr "你取消了对 %s 的关注."
+
+#: _inc/bp-follow-actions.php:78
+#, php-format
+msgid "There was a problem when trying to stop following %s, please try again."
+msgstr "取消关注 %s 时出了点状况，请再试一次。"
+
+#: _inc/bp-follow-actions.php:80
+#, php-format
+msgid "You are no longer following %s."
+msgstr "你不再关注 %s 了。"
+
+#: _inc/bp-follow-actions.php:117
+#, php-format
+msgid "%1$s | %2$s | Following Activity"
+msgstr "%1$s | %2$s | Following Activity"
+
+#: _inc/bp-follow-actions.php:120
+#, php-format
+msgid "Activity feed for people that %s is following."
+msgstr "%s 正在关注的更新。"
+
+#: _inc/bp-follow-actions.php:163
+msgid "Already following"
+msgstr "已经关注过了"
+
+#: _inc/bp-follow-actions.php:168
+msgid "Error following user"
+msgstr "错误！关注用户"
+
+#: _inc/bp-follow-actions.php:212
+msgid "Not following"
+msgstr "未关注"
+
+#: _inc/bp-follow-actions.php:218
+msgid "Error unfollowing user"
+msgstr "错误！取消关注"
+
+#: _inc/bp-follow-hooks.php:194
+msgid "The public activity for everyone you are following on this site."
+msgstr "所有你正在关注的人正在搞什么东东。"
+
+#: _inc/bp-follow-hooks.php:481
+msgid "You are following some users, but they haven't posted yet."
+msgstr "你关注了一些用户，但是他们什么都没做过呢。"
+
+#: _inc/bp-follow-hooks.php:483
+msgid "You are not following anyone yet."
+msgstr "你还没有关注任何人。"
+
+#: _inc/bp-follow-hooks.php:489
+msgid "This user is following some users, but they haven't posted yet."
+msgstr "这位用户关注了一些人，但是他们什么都没做过呢。"
+
+#: _inc/bp-follow-hooks.php:491
+msgid "This user isn't following anyone yet."
+msgstr "这位用户没有关注过任何人。"
+
+#: _inc/bp-follow-notifications.php:29 _inc/bp-follow-notifications.php:316
+#, php-format
+msgid "%s is now following you"
+msgstr "%s 正在关注着你"
+
+#: _inc/bp-follow-notifications.php:33
+#, php-format
+msgid "%d more users are now following you"
+msgstr "%d 位用户正在关注着你"
+
+#: _inc/bp-follow-notifications.php:254
+msgid "Yes"
+msgstr "好的"
+
+#: _inc/bp-follow-notifications.php:255
+msgid "No"
+msgstr "不要"
+
+#: _inc/bp-follow-notifications.php:262
+msgid "A member starts following your activity"
+msgstr "一位用户开始关注你的更新了"
+
+#: _inc/bp-follow-notifications.php:319
+#, php-format
+msgid ""
+"%s is now following your activity.\n"
+"\n"
+"To view %s's profile: %s"
+msgstr ""
+"%s 开始关注你的更新了。\n"
+"\n"
+"去看看 %s"
+
+#: _inc/bp-follow-notifications.php:326
+#, php-format
+msgid ""
+"\n"
+"\n"
+"---------------------\n"
+"To disable these notifications please log in and go to:\n"
+"%s"
+msgstr ""
+"\n"
+"\n"
+"---------------------\n"
+"To disable these notifications please log in and go to:\n"
+"%s"
+
+#: _inc/bp-follow-screens.php:196
+msgid "Order By:"
+msgstr "排序："
+
+#: _inc/bp-follow-screens.php:198
+msgid "Last Active"
+msgstr "最近的更新"
+
+#: _inc/bp-follow-screens.php:199
+msgid "Newest Registered"
+msgstr "最近注册的"
+
+#: _inc/bp-follow-screens.php:202
+msgid "Alphabetical"
+msgstr "字母顺序"
+
+#: _inc/bp-follow-templatetags.php:161
+msgctxt "Button"
+msgid "Unfollow"
+msgstr "取关"
+
+#: _inc/bp-follow-templatetags.php:171
+msgctxt "Button"
+msgid "Follow"
+msgstr "关注"
+
+#: _inc/bp-follow-widgets.php:25
+msgid "Show a list of member avatars that the logged-in user is following."
+msgstr "Show a list of member avatars that the logged-in user is following."
+
+#: _inc/bp-follow-widgets.php:31
+msgid "(BP Follow) Users I'm Following"
+msgstr "(BP Follow) Users I'm Following"
+
+#: _inc/bp-follow-widgets.php:99
+msgid "Users I'm Following"
+msgstr "我正在关注的用户"
+
+#: _inc/bp-follow-widgets.php:104
+msgid "Title:"
+msgstr "Title:"
+
+#: _inc/bp-follow-widgets.php:107
+msgid "Max members to show:"
+msgstr "最多显示多少人："
+
+#: _inc/bp-follow-widgets.php:108
+msgid ""
+"Note: This widget is only displayed if a member is logged in and if the "
+"logged-in user is following some users."
+msgstr ""
+"Note: This widget is only displayed if a member is logged in and if the "
+"logged-in user is following some users."

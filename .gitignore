@@ -1,0 +1,51 @@
+## MAC OS
+.DS_Store
+*.gem
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+## PROJECT::GENERAL
+coverage
+rdoc
+pkg
+*.log
+
+## PROJECT::SPECIFIC
+
+.project
+*~
+*.diff
+*.patch
+*.psd
+cdn/jquery-mobile/git
+.DS_Store
+cache/
+combined/
+combine/
+
+node_modules
+
+
+##wordpress##
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/backups/
+wp-content/plugins/woo-china-pay/log.txt
+
+
+
